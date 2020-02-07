@@ -1,0 +1,171 @@
+/*Limpar as formatações padrão*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet NS",  Helvetica , sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* 
+Layout
+*/
+a:link, a:visited, a:hover{
+    color:#be8c01;
+    
+}
+
+a:hover{
+    color:#be8c01;
+    text-decoration: underline;
+    
+}
+#area-cabeçalho{
+    background-color: #f7b600;
+    background-image: linear-gradient(#f1be31,#f7b600,#b68e20); 
+    padding: 15px;
+    text-align: center;
+    
+}
+
+#area-cabeçalho a:link, #area-cabeçalho a:visited{
+    color:#2a2108;
+    padding: 8px 12px;
+}
+
+#area-cabeçalho a:hover{
+    color:#2a2108;
+    background:azure;
+    border-radius: 12px;
+    text-decoration: none;
+    
+}
+
+.conteudo_lateral a:link{
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#principal{
+    
+    width:1400px;
+    margin: 0px auto;
+    padding: 15px;
+
+}
+
+#postagens{
+   
+    width: 950px;
+    float: left;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#lateral{
+    width: 350px;
+    float: right;
+ 
+  
+   
+   
+ 
+    
+
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 15px;
+    
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(233, 233, 233);
+}
+
+.conteudo_lateral{
+    background-color: rgb(231, 235, 235);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    
+}
+
+.postagem_lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+
+/*
+Formatação menu
+*/
+a{
+    text-decoration: none;
+    
+}
+
+
+
+/*
+Geral
+*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f1be31
+}
+h3{
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+img{
+    margin: 20px;
+    border-radius: 20px;
+}
+.branco{
+    color: white;
+}
+
+.arrumar{
+    float: left;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.espaçamento{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.espaçamentolink{
+    margin-top: 10px;
+}
